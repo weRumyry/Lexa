@@ -1,0 +1,348 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.ydav{
+    background-image: url(Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 1000px;
+    }
+header{
+    width: 100vw;
+    height: 110px;
+    display: flex;
+    padding: 0px 200px;
+    justify-content: space-between;
+     align-items: center;
+}
+header>p{
+    color: white;
+    font-size: 36px;
+    font-weight:400px ;
+}
+header>nav{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 0px 10px;
+    width: 440px;
+    font-size: 16px; ;
+    
+}
+header>nav>a{
+    color: white;
+    cursor: pointer;
+}
+.main{
+ color: white;
+ width: 100vw;
+ padding: 140px 220px;
+ display: flex;
+ justify-items: center;
+ flex-direction: column;
+ justify-content: space-between;
+ gap: 30px;
+}
+.main>h1{
+    font-size: 64PX;
+}
+.main>p{
+    font-size: 24px;
+}
+.main>button{
+    width: 180px;
+    height: 70px;
+    align-items: center;
+    font-size: 19px;
+    font-weight: 700;
+}
+.main>button:hover{
+    background-color: antiquewhite;
+}
+.ydav1{
+    padding: 100px 200px;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    
+}
+.ydav2{
+    padding: 0 20px;
+    width: 538px;
+
+}
+.ydav3{
+    padding: 0 20px;
+    display: flex;
+    width: 538px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.ydav1>h1{
+    line-height: 89.6px;
+    font-size: 64px;
+}
+.ydav1>p{
+    line-height: 89.6px;
+    font-size: 16px;
+}
+.ydav3>h1{
+   font-size: 50px;
+}
+.ydav3>p{
+    line-height: 24px;
+    padding: 10px 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ydav4{
+   display: flex;
+   justify-content: center;
+}
+
+.ydav5{
+    
+    row-gap: 120px;
+    column-gap: 60px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 350px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+}
+.ydav7 {
+    grid-row-start: 2;
+    
+    
+}
+.ydav6 {
+    margin-left: -40px;
+    
+    
+}
+
+.ydav9 {
+    grid-row-start: 2;
+    padding: 20px 30px;
+    margin-left: -50px;
+   
+}
+.ydav9>h1{
+    padding: 40px 0;
+    font-size: 24px;
+    width: 262px;
+    height: 34px;
+    color: #838383;
+    line-height: 33.6px;
+}
+.ydav9>p{
+    padding: 0px 0px;
+    font-size: 16px;
+    width: 570px;
+    height: 48px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #1D1D1F;
+    line-height: 24px;
+    margin-top: 10px;
+}
+.ydav8{
+    padding: 80px 20px;
+    
+}
+.ydav8 >h1 {
+    padding: 20px 20px;
+    font-size: 24px;
+    width: 262px;
+    height: 34px;
+    color: #838383;
+    line-height: 33.6px;
+}
+.ydav8 >p {
+    padding: 20px 20px;
+    font-size: 16px;
+    width: 570px;
+    height: 48px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #1D1D1F;
+    line-height: 24px;
+    margin-top: 10px;
+}
+.ydav8>button{
+    
+    width: 180px;
+    height: 60px;
+    background-color: #1D1D1F;
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    margin-top: 70px;
+    margin-left: 20px;
+    
+}
+.ydav9>button{
+    
+    width: 180px;
+    height: 60px;
+    background-color: #1D1D1F;
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    margin-top: 70px;
+    margin-left: 0px;
+}
+.ydav10{
+    margin-top: 700px;
+    padding: 0 350px;
+    display: flex;
+   
+}
+.ydav10>h1{
+    width: 820px;
+    height: 356px;
+    font-size: 36px;
+    line-height: 54px;
+    padding: 30px 0;
+    margin-left: -50px;
+    display: flex;
+    
+}
+.ydav10>h3{
+   color: #838383;
+   padding: 0 5px;
+   display: flex;
+}
+.ydav10>p{
+    padding: 0px 0;
+    margin-top: 400px;
+    color: #838383;
+    margin-left: -10px;
+    font-size: 20px;
+    display: flex;
+  
+
+}
+.ydav11{
+    color: black;
+    font-size: 20px;
+    padding: 0 20px;
+    margin-top: 400px;
+    height: 40px;
+    margin-left: -800px;
+}
+.ydav12{
+    
+    background: url(Слайдер.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100vw;
+    height: 1300px;
+    margin-top: 200px;
+}
+.ydav13{
+    padding: 50px 200px;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    margin-top: 200px;
+    margin-left: -50px;
+    justify-content: center;    
+}
+.Branding{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px 0;
+    border-top: 3px solid black ;
+    line-height: 20px;
+    height: 200px;
+    font-size: 20px;
+}
+.Wed_apps{
+    width: 1200p;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px 0;
+    border-top: 3px solid black ;
+    line-height: 20px;
+    height: 200px;
+    font-size: 20px;
+}
+.Design{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px 0;
+    border-top: 3px solid black ;
+    line-height: 25px;
+    height: 200px;
+    font-size: 20px;
+}
+.Strategy{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        padding: 50px 0;
+        border-top: 3px solid black ;
+        line-height: 20px;
+        height: 200px;
+        font-size: 20px;
+    }
+.ydav14{
+    background-image: url(IMG/Rectangle\ 8.png);
+    background-color: black;
+    width: 100vw;
+    height: 400px;
+    margin-left: 0px;
+    
+}
+.ydav14>h1{
+    color: white;
+    padding: 100px 200px;
+    font-size: 36px;
+}
+.ydav14>p{
+    color: grey;
+    padding: 0px 200px;
+    margin-top: -50px;
+}
+.ydav14>h2{
+    color: white;
+    padding: 0 200px;
+   font-size: 36px;
+    margin-left: 1000px;
+    margin-top: -100px;
+}
+.ydav14>nav{
+    color: grey;
+    margin-left: 1200px;
+    margin-top: 0px;
+
+}
+
+.nav_email{
+    margin-top: 10px;
+    cursor: auto;
+    font-size: 20px;
+    border-bottom: 1px solid #7e7e7e ;
+    line-height: 60px;
+}
+.logo{
+    display: flex;
+    padding: 0 200px;
+    flex-wrap: nowrap;
+    margin-top: -10px;
+}
